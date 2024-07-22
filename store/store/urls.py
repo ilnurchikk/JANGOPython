@@ -23,6 +23,6 @@ from products.views import index, products
 # ссылки
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', index, name="index"),
-    path('products/', products, name="products")
+    path('', index, name='index'),
+    path('products/', products, name='products')
 ]
